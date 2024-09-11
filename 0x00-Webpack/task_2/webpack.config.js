@@ -8,7 +8,7 @@ module.exports = {
     },
     output: {
       filename: 'bundle.js',
-      path: path.resolve(_dirname, 'public'),
+      path: path.resolve(__dirname, 'public'),
      },
      module: {
        rules: [
@@ -27,7 +27,7 @@ module.exports = {
 		 disable: true, // webpack@2.x and newer
 	       },
 	      },
-	     :],
+	     ],
             },
 	   ],
           },
