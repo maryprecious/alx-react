@@ -1,1 +1,1 @@
-0x05. React state
+0x08-react_redux_reducer_selector
